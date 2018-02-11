@@ -1,0 +1,3 @@
+[submodule "flappy-hacks"]
+	path = flappy-hacks
+	url = https://github.com/salikhov/flappy-hacks.git
