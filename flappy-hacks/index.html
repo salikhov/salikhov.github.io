@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flappy Hacky</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="flappy.png" />
+  </head>
+  <body id="bod" onclick="processClick();" onkeydown="processClick();">
+    <center>
+      <div id="message" class="title">
+        <h1 id="heading-title">Flappy Hacky</h1>
+        <h3 id="subheading">Click anywhere or press any key to start.<br/>
+          <small>Controls: &nbsp;&nbsp; &#8679; to bounce &nbsp;&nbsp; P to pause</small>
+        </h3>
+      </div>
+    </center>
+    <div class="score"><strong>Score: </strong><span id="score">0</span></div>
+    <img id="flappy" src="flappy.png" width="75px" style="position: absolute; left: 100px; top: 50px;" />
+    <script src="wall.js"></script>
+    <script src="physics.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
