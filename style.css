@@ -1,48 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lato');
-
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 hr {
-    width: 200px;
+  width: 200px;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #typer {
-    border-bottom: solid;
+  border-bottom: solid;
 }
 
 .header {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 a {
-    text-decoration: none;
-    color: #63747c;
-    transition: color 1s;
-    -webkit-transiiton: color 1s;
+  text-decoration: none;
+  color: #63747c;
+  transition: color 1s;
+  -webkit-transiiton: color 1s;
 }
 
 a:hover {
-    color: #212628;
+  color: #212628;
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
-nav > a {
-    border-bottom: solid;
-    padding: 0.2em;
-    margin: 0.4em;
+nav>a {
+  border-bottom: solid;
+  padding: 0.2em;
+  margin: 0.4em 0.4em 0 0.4em;
+  display: inline-block;
 }
 
 body {
-    padding: 50px;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
+  padding: 50px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
 }
